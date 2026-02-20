@@ -19,12 +19,12 @@ header{
 header p em {
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-size: 1.2rem;
-    color:#eee;
+    font-size:larger;
+    color:#e3e9ef;
 }
 header p strong{
     font-family: 'Playfair Display', serif;
-    font-size: 1.2rem;
+    font-size: larger;
 }
 main h1, h2, th{
     color: #5e1e37;
@@ -41,7 +41,6 @@ h1, h2, th {
     margin-bottom: 40px;
 }
 #Cast {
-    
     padding: 20px;
     margin: 20px 0;
 }
@@ -61,6 +60,7 @@ table{
     width: 100%;
     border-collapse:collapse;
     background-color: #ffffff;
+    text-align: center;
 }
 th,td{
     border: 1px solid black;
@@ -82,15 +82,3 @@ tr:hover {
     color: #8b4513;
     cursor: pointer;
 }
-
-/* • Use an external CSS file named style.css
-• Apply background colors
-• Apply text colors
-• Use margin and padding appropriately
-• Style the table (borders required)
-• Style the image (control size)
-• Include at least one hover effect
-• Use:
-o At least one element selector
-o At least one class selector
-o At least one ID selector */
