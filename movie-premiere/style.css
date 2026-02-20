@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Open+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    margin: 0;
+    background-color: #fff9f0;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+header{
+    background-color:#5e1e37;
+    padding:80px;
+    text-align: center;
+    color:#eee;
+}
+header p em {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color:#eee;
+}
+header p strong{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+main h1, h2, th{
+    color: #5e1e37;
+}
+h1, h2, th {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    text-align: center;
+}
+#About {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#Cast {
+    
+    padding: 20px;
+    margin: 20px 0;
+}
+#Times {
+    margin: 40px 0;
+}
+footer{
+    background-color: #222;
+    padding:80px;
+    text-align: center;
+    color: #eee;
+}
+footer h2{
+    color:#daa520;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+    background-color: #ffffff;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    background-color: #daa520; 
+    color: white;
+}
+.poster{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+tr:hover {
+    background-color: #f2e6d9; 
+}
+#Contact-info:hover {
+    color: #8b4513;
+    cursor: pointer;
+}
+
+/* • Use an external CSS file named style.css
+• Apply background colors
+• Apply text colors
+• Use margin and padding appropriately
+• Style the table (borders required)
+• Style the image (control size)
+• Include at least one hover effect
+• Use:
+o At least one element selector
+o At least one class selector
+o At least one ID selector */
